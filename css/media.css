@@ -1,0 +1,548 @@
+@media (max-width:1280px) {
+
+  /* header */
+  .nav{
+    display: none;
+  }
+
+  .header__open {
+    display: inline-block;
+    z-index: 3;
+  }
+
+  .header__logo{
+    width: 150px;
+    height: 48px;
+  }
+
+  .header__search{
+    margin-left: 0px;
+  }
+
+  .nav-open .nav__list{
+    position: fixed;
+    top: 0;
+    left: -234px;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    z-index: 2;
+    padding: 46px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+    font-size: 34px;
+    font-weight: 600;
+  }
+
+  /* section-hero */
+
+  .section-hero{
+    margin-bottom: 80px;
+  }
+
+  .section-hero__content {
+    padding: 160px 77px;
+    width: 100%;
+  }
+
+  .section-hero__heading {
+    font-size: 60px;
+    line-height: 73.14px;
+    margin-bottom: 16px;
+  }
+
+  .section-hero__description {
+    font-size: 20px;
+    line-height: 24.38px;
+  }
+
+  .section-hero__link{
+    margin-top: 60px;
+  }
+
+  /* About-us */
+
+  .About-us__description{
+    width: 100%;
+  }
+
+  .About-us__content{
+    display: block;
+  }
+
+  .Left{
+    margin-bottom: 32px;
+    max-width: 100%;
+  }
+
+  /* We-Worked */
+
+  .We-Worked{
+    margin-top: 80px;
+  }
+
+  .We-Worked__list{
+    margin-bottom: 50px;
+  }
+
+  .We-Worked__content{
+    display: none;
+  }
+
+  .We-Worked__content-active{
+    display: flex;
+  }
+
+  .We-Worked__description{
+    margin-bottom: 25px;
+  }
+
+  .We-Worked__image{
+    max-width: 437px;
+  }
+
+  /* Questions */
+
+  .Questions{
+    margin-top: 80px;
+  }
+
+  /* footer */
+
+  .footer__right{
+    display: none;
+  }
+
+}
+
+@media (max-width:955px){
+  /* section-hero */
+
+  .section-hero{
+    margin-bottom: 80px;
+  }
+
+  .section-hero__content{
+    width: 100%;
+    padding: 160px 40px;
+  }
+
+  .section-hero__heading{
+    font-size: 50px;
+    line-height: 60.95px;
+  }
+
+  .section-hero__description{
+    font-size: 18px;
+    line-height: 21.94px;
+  }
+
+  .section-hero__link{
+    margin-top: 60px;
+  }
+
+  /* We-Worked */
+
+  .We-Worked{
+    margin-top: 80px;
+  }
+
+  .list-Worked{
+    justify-content: space-between;
+  }
+
+  .We-Worked__list{
+    margin-bottom: 50px;
+  }
+
+  .We-Worked__content{
+    display: none;
+  }
+
+  .We-Worked__content-active{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .We-Worked__left{
+    width: 100%;
+  }
+
+  .We-Worked__description{
+    margin-bottom: 25px;
+  }
+
+  .We-Worked__image{
+    min-width: 100%;
+    height: 284px;
+    margin-bottom: 38px;
+  }
+
+  /* Questions */
+
+  .Questions{
+    margin-top: 80px;
+  }
+  
+  .Questions__description{
+    font-size: 20px;
+  }
+
+  /* footer */
+  .footer{
+    margin-top: 80px;
+  }
+
+  .footer__conainer{
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+
+  .nav-footer{
+    display: none;
+  }
+
+  .footer__center{
+    margin-bottom: 50px;
+  }
+
+  .icon{
+    margin-top: 16px;
+  }
+}
+
+@media (max-width:770px){
+  .HeaderH2{
+    font-size: 24px;
+    line-height: 29.26px;
+  }
+
+  /* section-hero */
+  .section-hero{
+    margin-bottom: 60px;
+  }
+
+  .section-hero__content{
+    width: 100%;
+    padding: 60px 21px;
+    text-align: center;
+  }
+
+  .section-hero__heading{
+    font-size: 35px;
+    line-height: 39.38px;
+  }
+
+  .section-hero__description{
+    font-size: 16px;
+    line-height: 20.63px;
+  }
+
+  .section-hero__link{
+    margin-top: 32px;
+    padding: 18px 25px;
+    font-size: 16px;
+    line-height: 20.63px;
+  }
+
+  /* About-us */
+
+  .About-us__description{
+    font-size: 14px;
+    line-height: 2;
+  }
+
+  .Left{
+    display: inline-block;
+    width: 100%;
+    height: 200px;
+    padding-top: 0;
+  }
+  
+  .left__content{
+    margin-top: 204px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .Left__description{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color:#333333;
+    width: 100%;
+  }
+
+  .Left__link{
+    /* display: inline-block; */
+    background-color: rgba(255, 255, 255, 0);
+    color: #FF9900;
+    /* margin-bottom: 32px; */
+  }
+
+  .Right__item{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0px;
+    padding: 0px;
+    border: 0px;
+  }
+
+  .Right__icon{
+    min-width: 110px;
+    height: 80px;
+  }
+
+  .Right__icon1{
+    margin-top: 165px;
+  }
+
+  .Right__strong{
+    font-size: 18px;
+    line-height: 21.94px;
+    font-weight: 500;
+  }
+
+  .Right_description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.5px;
+  }
+
+  /* We-Worked */
+
+  .We-Worked{
+    margin-top: 60px;
+  }
+
+  .We-Worked__header{
+    margin-bottom: 16px;
+  }
+  
+  .We-Worked__list{
+    margin-bottom: 16px;
+  }
+
+  .list-Worked__link{
+    font-size: 14px;
+    line-height: 17.07px;
+    white-space: nowrap;
+  }
+
+  .We-Worked__header3{
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .We-Worked__image{
+    margin-bottom: 16px;
+  }
+
+  .We-Worked__description{
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  /* Questions */
+
+  .Questions{
+    margin-top: 60px;
+  }
+
+  .Questions__header{
+    margin-bottom: 16px;
+  }
+
+  .Questions__item{
+    padding: 30px 0px;
+  }
+
+  .Questions__otvet-active{
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 20px;
+  }  
+
+  .Questions__description{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  /* footer */
+
+  .footer{
+    margin-top: 60px;
+    padding: 32px 14px;
+  }
+
+  .footer__conainer{
+    align-items: center;
+  }
+
+  .footer__button{
+    margin-right: 0;
+  }
+
+  .footer__bottom-btn{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
+@media (max-width:555px){
+  .container{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  /* Header */
+  .header{
+    height: 70px;
+  }
+
+  /* section-hero */
+
+  .section-hero__heading{
+    font-size: 20px;
+    line-height: 24.38px;
+    margin-bottom: 6px;
+  }
+
+  .section-hero__description{
+    font-size: 12px;
+    line-height: 14.63px;
+  }
+
+  .section-hero__link{
+    font-size: 12px;
+    line-height: 14.63px;
+  }
+
+  /* About-us */
+
+  .HeaderH2{
+    font-weight: 400;
+  }
+
+  .About-us__description{
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 8px;
+  }
+
+  .Left__description{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .Left__link{
+    padding: 11px 40px 14px 40px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14.63px;
+  }
+
+  .Right__icon1{
+    margin-top: 170px;
+  }
+
+  .Right__icon{
+    min-width: 64px;
+    height: 49px;
+  }
+
+  .Right_description{
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  /* We-Worked */
+
+  .list-Worked{
+    justify-content: space-between;
+    gap: 0px;
+  }
+
+  .We-Worked__link1{
+    margin-right: 10px;
+    padding: 14px 38px;
+    font-size: 12px;
+    line-height: 14.63px;
+  }
+
+  .We-Worked__link2{
+    padding: 14px 30px;
+    font-size: 12px;
+    line-height: 14.63px;
+  }
+
+  /* Questions */
+
+  .Questions__item{
+    align-items: center;
+  }
+
+  .Questions__button{
+    width: 30px;
+    height: 30px;
+  }
+
+  .Questions__otvet-active{
+    font-size: 12px;
+    line-height: 22px;
+    margin-top: 15px;
+  } 
+
+  /* footer */
+
+  .footer__header{
+    font-size: 24px;
+    line-height: 29.26px;
+  }
+
+  .footer__button{
+    font-size: 12px;
+    padding: 12px 24px;
+    width: 175px;
+    margin-right: 0px;
+    line-height: 14.63px;
+  }
+
+  .footer__bottom-btn{
+    align-items: center;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #595959;
+  }
+
+  .footer__left{
+    margin-right: 0px;
+    text-align: center;
+  }
+
+  .footer__logo{
+    margin-bottom: 16px;
+  }
+  
+  .footer__image{
+    width: 131px;
+    height: 42px;
+  }
+
+  .footer__center{
+    margin-bottom: 33px;
+  }
+
+  .icon__link{
+    width: 40px;
+    height: 40px;
+  }
+
+}
